@@ -1,0 +1,9 @@
+[project]
+name = "chat-memory"
+version = "1.0.0"
+description = "A chat CLI with conversation memory and a token-budget window."
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
