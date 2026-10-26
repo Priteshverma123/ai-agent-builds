@@ -1,4 +1,4 @@
-# The project itself is pure standard library. Tests need:
+# Runtime: pure standard library (mirrors pyproject `dependencies = []`). Tests need:
 pytest==8.3.4
 
 # Optional, only to talk to a real model (see README "Use a real LLM"):

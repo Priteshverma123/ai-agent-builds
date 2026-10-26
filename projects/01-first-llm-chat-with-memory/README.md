@@ -35,6 +35,60 @@ of the newest messages as fit in the token budget. Only the window goes to the m
 together with one method, `send()`. The model sits behind a one-method interface, `complete(system, messages)`. The
 default backend is an offline `MockLLM` that, like a real model, only "knows" what's in the messages it is sent.
 
+## Flow
+
+```mermaid
+flowchart TD
+    A["cli.py main()<br/>parse --budget / --chat"] --> B["config.py Settings.from_env()"]
+    B --> C["llm.py make_llm()<br/>MockLLM by default"]
+    A --> D["cli.py run_script() / run_chat()"]
+    D --> E["chat.py ChatSession.send(text)"]
+    E --> F["memory.py ConversationMemory.add('user')"]
+    F --> G["memory.py ConversationMemory.window()<br/>uses tokens.py count_tokens()"]
+    G -->|"Window.messages"| H["llm.py complete(system, messages)"]
+    C -.-> H
+    H -->|reply| I["memory.py ConversationMemory.add('assistant')"]
+    I --> J["cli.py render(Turn)<br/>ui.py box() + meter()"]
+    G -.->|"Window.dropped"| J
+```
+
+Each box is a real function: start at `cli.py`, follow `ChatSession.send()` into `memory.py`, and you have read the whole
+request path. See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for the sequence diagram and failure modes.
+
+## Project structure
+
+```
+01-first-llm-chat-with-memory/
+├── README.md                 # this tutorial
+├── VIDEO.md                  # hooks + flow steps for the video
+├── docs/ARCHITECTURE.md      # components, sequence diagram, design decisions, failure modes
+├── pyproject.toml            # package metadata, `chat-memory` script, pytest + ruff config
+├── requirements.txt          # pinned deps (runtime is stdlib only)
+├── Makefile                  # install / test / demo / chat / lint / docker / clean
+├── Dockerfile                # python:3.12-slim, non-root, runs the demo
+├── .dockerignore / .gitignore
+├── .env.example              # every setting the code reads
+├── demo.py                   # one-command demo, no install needed
+├── src/chat_memory/
+│   ├── __init__.py           # __version__
+│   ├── __main__.py           # `python -m chat_memory`
+│   ├── cli.py                # argparse entry: scripted demo or interactive chat
+│   ├── config.py             # Settings.from_env(): LLM_PROVIDER, LLM_MODEL, CHAT_BUDGET
+│   ├── chat.py               # ChatSession.send(): one turn
+│   ├── memory.py             # ConversationMemory + token-budget Window, save/load
+│   ├── tokens.py             # count_tokens(): dependency-free estimate
+│   ├── llm.py                # MockLLM + optional Anthropic / OpenAI backends
+│   └── ui.py                 # ASCII banner, boxes and context meter
+├── tests/
+│   ├── test_memory.py        # unit tests: tokens, window, mock, persistence
+│   └── test_e2e.py           # end-to-end demo flow + config
+└── examples/demo_conversation.txt  # the scripted conversation
+```
+
+Shortcuts: `make test`, `make demo`, `make chat`. Container: `docker build -t chat-memory . && docker run --rm chat-memory`
+The image runs the offline `MockLLM`. For a real model, build with `--build-arg PROVIDER_SDK=anthropic` and run with
+`-e LLM_PROVIDER=anthropic -e ANTHROPIC_API_KEY=...`.
+
 ## Quickstart
 
 **Windows (PowerShell)**

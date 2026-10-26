@@ -52,3 +52,42 @@ projects/NN-kebab-name/
 - `diagram`: 3–5 boxes for the architecture flow.
 - `real_world`: one concrete real-life use case.
 - `try_it`: one-sentence challenge for viewers.
+
+---
+
+## Production-ready structure (v2, applies to every project)
+
+Every project must look like something a team would ship:
+
+```
+projects/NN-kebab-name/
+├── README.md              # + "## Flow" (Mermaid flowchart) and "## Project structure" (tree with 1-line notes)
+├── docs/
+│   └── ARCHITECTURE.md    # components, data flow, Mermaid sequenceDiagram of one full request,
+│                          # design decisions (why), failure modes & how they're handled, how to extend
+├── pyproject.toml         # [project] name/version/requires-python>=3.11/deps; [project.scripts] CLI entry;
+│                          # [tool.pytest.ini_options] pythonpath=["src"], testpaths=["tests"]; [tool.ruff] basics
+├── requirements.txt       # pinned runtime deps (mirrors pyproject)
+├── Makefile               # install, test, demo, lint, (run|serve if a service), clean
+├── Dockerfile             # python:3.12-slim, non-root user, copies src, runs the demo/CLI (or uvicorn for services)
+├── .dockerignore
+├── .env.example           # every setting the code reads, with safe defaults/comments
+├── .gitignore
+├── demo.py                # stays: one-command demo, no install needed
+├── src/<package>/
+│   ├── __init__.py        # __version__
+│   ├── config.py          # typed settings loaded from env (dataclass or pydantic), single source of truth
+│   ├── cli.py             # argparse entry used by [project.scripts] and demo.py
+│   └── ...                # domain / services / adapters split when the project is big enough
+├── tests/                 # unit tests + at least one end-to-end test of the demo flow
+└── examples/              # sample inputs used by demo and tests
+```
+
+Rules for the v2 upgrade:
+- Keep behaviour identical: demo output and all existing tests must still pass. Add tests, never delete them.
+- The Flow diagram uses the project's REAL component/function names, so a viewer can map the boxes to files.
+- `ruff`-clean style is welcome but ruff is not installed; don't run it. Don't install anything.
+- No git commands. Only touch your assigned project folders.
+- Add to `VIDEO.md` a `flow_steps` section: 4–6 numbered steps that walk one request through the system in plain
+  English, each naming the real component/file ("1. `cli.py` reads your message → 2. `memory.py` trims history to the
+  token budget → …"). The project video uses these to explain the flow to viewers.

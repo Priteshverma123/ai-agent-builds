@@ -1,0 +1,34 @@
+name: tests
+on:
+  push:
+  pull_request:
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    outputs:
+      projects: ${{ steps.list.outputs.projects }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: list
+        run: echo "projects=$(ls -d projects/*/ | sed 's#/$##' | jq -R -s -c 'split("\n")[:-1]')" >> "$GITHUB_OUTPUT"
+  test:
+    needs: discover
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        project: ${{ fromJson(needs.discover.outputs.projects) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        working-directory: ${{ matrix.project }}
+        run: pip install -r requirements.txt pytest
+      - name: Test
+        working-directory: ${{ matrix.project }}
+        run: python -m pytest -q
+      - name: Demo runs
+        working-directory: ${{ matrix.project }}
+        run: python demo.py > /dev/null

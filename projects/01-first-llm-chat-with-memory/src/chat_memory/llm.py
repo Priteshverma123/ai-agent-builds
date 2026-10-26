@@ -7,9 +7,10 @@ Every backend has the same one-method interface:
 
 from __future__ import annotations
 
-import os
 import re
 from typing import Protocol
+
+from .config import DEFAULT_MODELS, Settings
 
 ChatMessage = dict[str, str]
 
@@ -83,7 +84,7 @@ class AnthropicLLM:
         import anthropic  # imported lazily: the offline path needs no SDK
 
         self.client = anthropic.Anthropic()
-        self.model = model or os.getenv("LLM_MODEL", "claude-opus-5-5")
+        self.model = model or DEFAULT_MODELS["anthropic"]
 
     def complete(self, system: str, messages: list[ChatMessage]) -> str:
         response = self.client.beta.messages.create(
@@ -107,7 +108,7 @@ class OpenAILLM:
         import openai
 
         self.client = openai.OpenAI()
-        self.model = model or os.getenv("LLM_MODEL", "gpt-4.1-mini")
+        self.model = model or DEFAULT_MODELS["openai"]
 
     def complete(self, system: str, messages: list[ChatMessage]) -> str:
         response = self.client.chat.completions.create(
@@ -117,13 +118,11 @@ class OpenAILLM:
         return response.choices[0].message.content or ""
 
 
-def make_llm() -> LLM:
-    """Pick a backend from LLM_PROVIDER (mock | anthropic | openai). Default: mock."""
-    provider = os.getenv("LLM_PROVIDER", "mock").lower()
-    if provider == "mock":
-        return MockLLM()
-    if provider == "anthropic":
-        return AnthropicLLM()
-    if provider == "openai":
-        return OpenAILLM()
-    raise ValueError(f"Unknown LLM_PROVIDER {provider!r}; use mock, anthropic or openai.")
+def make_llm(settings: Settings | None = None) -> LLM:
+    """Pick a backend from settings (env LLM_PROVIDER: mock | anthropic | openai). Default: mock."""
+    settings = settings or Settings.from_env()
+    if settings.llm_provider == "anthropic":
+        return AnthropicLLM(settings.model_for("anthropic"))
+    if settings.llm_provider == "openai":
+        return OpenAILLM(settings.model_for("openai"))
+    return MockLLM()

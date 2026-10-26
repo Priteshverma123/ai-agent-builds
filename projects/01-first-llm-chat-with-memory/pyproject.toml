@@ -2,8 +2,33 @@
 name = "chat-memory"
 version = "1.0.0"
 description = "A chat CLI with conversation memory and a token-budget window."
+readme = "README.md"
 requires-python = ">=3.11"
+dependencies = []  # pure standard library
+
+[project.optional-dependencies]
+dev = ["pytest==8.3.4"]
+anthropic = ["anthropic"]
+openai = ["openai"]
+
+[project.scripts]
+chat-memory = "chat_memory.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
 
 [tool.pytest.ini_options]
 pythonpath = ["src"]
 testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
