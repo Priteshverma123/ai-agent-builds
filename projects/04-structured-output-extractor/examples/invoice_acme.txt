@@ -1,0 +1,22 @@
+From: Acme Office Supplies <billing@acme-supplies.example>
+Subject: Invoice #INV-2026-0042 for your March order
+
+Hi there,
+
+Thanks for your order! Please find the details below.
+
+Invoice number: INV-2026-0042
+Date: March 3, 2026
+Due: April 2, 2026
+
+  - 3 x Ergonomic chair @ $189.00
+  - 10 x Notebook (A5, dotted) @ $4.50
+  - 1 x Standing desk mat @ $59.99
+
+Subtotal: $671.99
+Tax (8%): $53.76
+Total due: $725.75
+
+Payment by bank transfer within 30 days. Amounts in USD.
+Cheers,
+Dana from Acme

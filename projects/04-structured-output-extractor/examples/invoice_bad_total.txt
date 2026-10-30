@@ -1,0 +1,12 @@
+From: Brightline Printing <accounts@brightline.example>
+Subject: Invoice No. BP-7781
+
+Invoice No. BP-7781
+Date: 12 May 2026
+
+  - 500 x Business cards @ $0.20
+  - 2 x Roll-up banner @ $85.00
+
+Total: $300.00
+
+(USD. The total above was typed by hand -- it doesn't match the items.)

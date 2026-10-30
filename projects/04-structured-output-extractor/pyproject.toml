@@ -1,0 +1,34 @@
+[project]
+name = "structured-extractor"
+version = "1.0.0"
+description = "Turn messy text into validated JSON with pydantic and repair retries."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["pydantic==2.10.6"]
+
+[project.optional-dependencies]
+dev = ["pytest==8.3.4"]
+anthropic = ["anthropic"]
+openai = ["openai"]
+
+[project.scripts]
+extractor = "extractor.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]

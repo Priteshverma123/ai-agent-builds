@@ -20,7 +20,7 @@ Then follow the project's README.
 | 01 | ✅ [first-llm-chat-with-memory](projects/01-first-llm-chat-with-memory) | Beginner | A chat CLI with conversation memory and a token-budget window (shows why AI "forgets") |
 | 02 | ✅ [tool-calling-from-scratch](projects/02-tool-calling-from-scratch) | Beginner | Function calling with no framework: JSON tool schemas, dispatcher, result feeding |
 | 03 | ✅ [react-agent-loop](projects/03-react-agent-loop) | Beginner | The think → act → observe loop with step limits and a readable trace |
-| 04 | 🔒 structured-output-extractor (coming soon) | Beginner | Turn messy text (emails, invoices) into validated JSON with pydantic + repair retries |
+| 04 | ✅ [structured-output-extractor](projects/04-structured-output-extractor) | Beginner | Turn messy text (emails, invoices) into validated JSON with pydantic + repair retries |
 | 05 | 🔒 rag-from-scratch (coming soon) | Beginner | Chunk → embed (local TF-IDF/hashing vectors) → retrieve → answer with citations |
 | 06 | 🔒 web-research-agent (coming soon) | Beginner | Multi-step research over a local corpus "web", with source tracking and a cited brief |
 | 07 | 🔒 agent-memory-systems (coming soon) | Intermediate | Short-term buffer + long-term SQLite memory + summarisation + relevance recall |
