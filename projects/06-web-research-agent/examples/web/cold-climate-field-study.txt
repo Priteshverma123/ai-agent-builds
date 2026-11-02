@@ -1,0 +1,5 @@
+URL: https://coldclimate-lab.example.org/field-study-2025
+Title: Field study: cold-climate heat pumps through a Canadian winter
+Type: study
+
+We monitored 40 homes in Quebec and Manitoba from November 2024 to March 2025. Across all homes, cold-climate heat pumps kept an average COP above 1.8 down to -20 C outdoor temperature. Below -25 C, most units switched to backup resistance heat for a few hours at a time. Homeowners reported comfortable indoor temperatures on 97 percent of winter days. Older single-stage heat pumps in the same climate performed far worse than modern variable-speed cold-climate models.

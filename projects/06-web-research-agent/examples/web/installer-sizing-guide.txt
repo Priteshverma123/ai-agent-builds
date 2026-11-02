@@ -1,0 +1,5 @@
+URL: https://installers.example.org/cold-climate-sizing
+Title: Installer guide: sizing heat pumps for cold climates
+Type: guide
+
+In cold climates, installers size the heat pump to cover 100 percent of the home's design heating load. A small backup heater handles the coldest few days of the year. Undersized heat pumps are the most common cause of cold-weather complaints. Air sealing and insulation upgrades often let a smaller, cheaper heat pump do the job.

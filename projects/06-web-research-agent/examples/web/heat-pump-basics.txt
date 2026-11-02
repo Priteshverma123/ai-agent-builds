@@ -1,0 +1,5 @@
+URL: https://energy.example.org/heat-pump-basics
+Title: How heat pumps work
+Type: guide
+
+A heat pump moves heat instead of burning fuel to make it. In winter it pulls heat out of the outdoor air and pumps it inside, even when the air feels cold. Efficiency is measured as the coefficient of performance (COP): a heat pump typically delivers 2 to 4 units of heat for every unit of electricity it uses. A gas furnace, by comparison, delivers at most 0.98 units of heat per unit of fuel. The colder the outdoor air, the harder the heat pump has to work, so its COP falls as temperatures drop.

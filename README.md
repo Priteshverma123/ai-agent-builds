@@ -22,7 +22,7 @@ Then follow the project's README.
 | 03 | ✅ [react-agent-loop](projects/03-react-agent-loop) | Beginner | The think → act → observe loop with step limits and a readable trace |
 | 04 | ✅ [structured-output-extractor](projects/04-structured-output-extractor) | Beginner | Turn messy text (emails, invoices) into validated JSON with pydantic + repair retries |
 | 05 | ✅ [rag-from-scratch](projects/05-rag-from-scratch) | Beginner | Chunk → embed (local TF-IDF/hashing vectors) → retrieve → answer with citations |
-| 06 | 🔒 web-research-agent (coming soon) | Beginner | Multi-step research over a local corpus "web", with source tracking and a cited brief |
+| 06 | ✅ [web-research-agent](projects/06-web-research-agent) | Beginner | Multi-step research over a local corpus "web", with source tracking and a cited brief |
 | 07 | 🔒 agent-memory-systems (coming soon) | Intermediate | Short-term buffer + long-term SQLite memory + summarisation + relevance recall |
 | 08 | 🔒 mcp-server-from-scratch (coming soon) | Intermediate | A Model Context Protocol server over stdio (JSON-RPC 2.0) exposing tools + resources |
 | 09 | 🔒 mcp-client-agent (coming soon) | Intermediate | An agent that launches MCP servers, discovers tools at runtime and uses them |
