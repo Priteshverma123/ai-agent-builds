@@ -1,0 +1,63 @@
+{
+  "_comment": "Scripted replies for the offline MockDebateLLM. Keyed by question id -> agent -> round. A missing round repeats the agent's last scripted round.",
+  "questions": {
+    "microservices": {
+      "text": "Should our 12-person startup split the monolith into microservices this quarter?",
+      "script": {
+        "architect": {
+          "1": {"stance": "for", "confidence": 0.8, "claims": [
+            "scaling: independent services let each team deploy without waiting on others",
+            "velocity: smaller codebases are faster to change safely"]},
+          "2": {"stance": "conditional", "confidence": 0.6,
+                "changed_because": "sre's on-call point: 12 people cannot run many services",
+                "claims": ["scaling: extract only the payments module first, keep the rest monolithic"]}
+        },
+        "sre": {
+          "1": {"stance": "against", "confidence": 0.85, "claims": [
+            "ops: 12 engineers cannot staff on-call for a dozen services",
+            "reliability: every network call is a new failure mode"]}
+        },
+        "pm": {
+          "1": {"stance": "against", "confidence": 0.7, "claims": [
+            "velocity: a migration freezes feature work for a whole quarter"]},
+          "2": {"stance": "against", "confidence": 0.75, "claims": [
+            "velocity: a migration freezes feature work for a whole quarter",
+            "customers: two enterprise deals depend on features due this quarter"]}
+        },
+        "finance": {
+          "1": {"stance": "against", "confidence": 0.6, "claims": [
+            "cost: more infrastructure, CI pipelines and observability spend"]}
+        }
+      }
+    },
+    "automerge": {
+      "text": "Should we let an AI agent auto-merge dependency-update pull requests?",
+      "script": {
+        "architect": {
+          "1": {"stance": "for", "confidence": 0.75, "claims": [
+            "toil: forty bot PRs a week eat a day of senior review time",
+            "security: patching faster closes known CVEs sooner"]},
+          "2": {"stance": "for", "confidence": 0.7, "claims": [
+            "security: patching faster closes known CVEs sooner"]}
+        },
+        "sre": {
+          "1": {"stance": "against", "confidence": 0.8, "claims": [
+            "supply-chain: a compromised package would ship to production automatically",
+            "security: an auto-merged update can introduce a CVE as easily as fix one"]}
+        },
+        "pm": {
+          "1": {"stance": "for", "confidence": 0.65, "claims": [
+            "toil: engineers would rather build features than click approve"]},
+          "2": {"stance": "conditional", "confidence": 0.6, "claims": [
+            "toil: auto-merge only patch releases"]}
+        },
+        "finance": {
+          "1": {"stance": "conditional", "confidence": 0.5, "claims": [
+            "risk: only patch versions whose full test suite passes"]},
+          "2": {"stance": "conditional", "confidence": 0.55, "claims": [
+            "risk: only patch versions whose full test suite passes"]}
+        }
+      }
+    }
+  }
+}
