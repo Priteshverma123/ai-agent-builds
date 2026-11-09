@@ -1,0 +1,34 @@
+[project]
+name = "durable-agent-workflows"
+version = "0.2.0"
+description = "Long-running agent jobs with checkpoints, retries, idempotency and resume after crash"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []  # stdlib only (sqlite3, asyncio); real providers are optional extras
+
+[project.optional-dependencies]
+anthropic = ["anthropic"]
+openai = ["openai"]
+dev = ["pytest==8.3.4"]
+
+[project.scripts]
+durable = "durable.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
