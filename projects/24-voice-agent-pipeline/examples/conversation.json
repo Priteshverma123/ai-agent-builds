@@ -1,0 +1,8 @@
+{
+  "_comment": "What the mock microphone 'hears'. start_ms is when the user starts each utterance. The second one deliberately talks over the agent's first answer (barge-in); the third needs a slow tool (filler).",
+  "utterances": [
+    {"start_ms": 0,     "text": "hi can you tell me your opening hours please"},
+    {"start_ms": 6000,  "text": "sorry what about sundays"},
+    {"start_ms": 11000, "text": "and what will the weather be tomorrow"}
+  ]
+}
