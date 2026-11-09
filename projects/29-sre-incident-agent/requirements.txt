@@ -1,0 +1,3 @@
+# stdlib only at runtime; httpx is used only when LLM_PROVIDER is set
+httpx==0.28.1
+pytest==8.3.4

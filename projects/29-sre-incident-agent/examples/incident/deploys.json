@@ -1,0 +1,4 @@
+[
+  {"id": "dep-7781", "service": "inventory-api", "version": "v3.1.0", "previous_version": "v3.0.4", "ts": "2026-10-21T13:18:00Z", "change": "Add stock_levels index hint; bump logging library", "pr": "#4790"},
+  {"id": "dep-7790", "service": "checkout-api", "version": "v2.14.0", "previous_version": "v2.13.2", "ts": "2026-10-21T14:03:00Z", "change": "Raise payments DB pool size from 20 to 100 per pod; enable retry on payment timeout", "pr": "#4812"}
+]

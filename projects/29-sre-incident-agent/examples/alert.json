@@ -1,0 +1,1 @@
+{"id": "ALERT-5521", "fired_at": "2026-10-21T14:09:00Z", "service": "checkout-api", "rule": "checkout-api p95 latency > 300ms for 3m", "severity": "page"}

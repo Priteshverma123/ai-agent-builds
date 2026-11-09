@@ -1,0 +1,227 @@
+{"ts": "2026-10-21T13:30:03Z", "service": "payments-db", "level": "INFO", "message": "health check ok in 10ms"}
+{"ts": "2026-10-21T13:30:08Z", "service": "checkout-api", "level": "INFO", "message": "health check ok in 8ms"}
+{"ts": "2026-10-21T13:30:12Z", "service": "inventory-api", "level": "INFO", "message": "health check ok in 7ms"}
+{"ts": "2026-10-21T13:31:06Z", "service": "payments-db", "level": "INFO", "message": "health check ok in 7ms"}
+{"ts": "2026-10-21T13:31:14Z", "service": "checkout-api", "level": "INFO", "message": "health check ok in 12ms"}
+{"ts": "2026-10-21T13:31:17Z", "service": "inventory-api", "level": "INFO", "message": "health check ok in 3ms"}
+{"ts": "2026-10-21T13:32:03Z", "service": "checkout-api", "level": "INFO", "message": "health check ok in 13ms"}
+{"ts": "2026-10-21T13:32:05Z", "service": "inventory-api", "level": "INFO", "message": "health check ok in 7ms"}
+{"ts": "2026-10-21T13:32:20Z", "service": "payments-db", "level": "INFO", "message": "health check ok in 10ms"}
+{"ts": "2026-10-21T13:33:10Z", "service": "inventory-api", "level": "INFO", "message": "health check ok in 13ms"}
+{"ts": "2026-10-21T13:33:12Z", "service": "checkout-api", "level": "INFO", "message": "health check ok in 12ms"}
+{"ts": "2026-10-21T13:33:18Z", "service": "payments-db", "level": "INFO", "message": "health check ok in 8ms"}
+{"ts": "2026-10-21T13:34:05Z", "service": "checkout-api", "level": "INFO", "message": "health check ok in 10ms"}
+{"ts": "2026-10-21T13:34:06Z", "service": "inventory-api", "level": "INFO", "message": "health check ok in 5ms"}
+{"ts": "2026-10-21T13:34:13Z", "service": "payments-db", "level": "INFO", "message": "health check ok in 6ms"}
+{"ts": "2026-10-21T13:35:02Z", "service": "payments-db", "level": "INFO", "message": "health check ok in 9ms"}
+{"ts": "2026-10-21T13:35:14Z", "service": "checkout-api", "level": "INFO", "message": "health check ok in 4ms"}
+{"ts": "2026-10-21T13:35:14Z", "service": "inventory-api", "level": "INFO", "message": "health check ok in 5ms"}
+{"ts": "2026-10-21T13:36:00Z", "service": "inventory-api", "level": "INFO", "message": "health check ok in 6ms"}
+{"ts": "2026-10-21T13:36:12Z", "service": "checkout-api", "level": "INFO", "message": "health check ok in 4ms"}
+{"ts": "2026-10-21T13:36:15Z", "service": "payments-db", "level": "INFO", "message": "health check ok in 12ms"}
+{"ts": "2026-10-21T13:37:03Z", "service": "inventory-api", "level": "INFO", "message": "health check ok in 7ms"}
+{"ts": "2026-10-21T13:37:13Z", "service": "checkout-api", "level": "INFO", "message": "health check ok in 10ms"}
+{"ts": "2026-10-21T13:37:15Z", "service": "payments-db", "level": "INFO", "message": "health check ok in 3ms"}
+{"ts": "2026-10-21T13:38:00Z", "service": "inventory-api", "level": "INFO", "message": "health check ok in 14ms"}
+{"ts": "2026-10-21T13:38:14Z", "service": "payments-db", "level": "INFO", "message": "health check ok in 14ms"}
+{"ts": "2026-10-21T13:38:18Z", "service": "checkout-api", "level": "INFO", "message": "health check ok in 10ms"}
+{"ts": "2026-10-21T13:39:01Z", "service": "payments-db", "level": "INFO", "message": "health check ok in 10ms"}
+{"ts": "2026-10-21T13:39:17Z", "service": "checkout-api", "level": "INFO", "message": "health check ok in 11ms"}
+{"ts": "2026-10-21T13:39:19Z", "service": "inventory-api", "level": "INFO", "message": "health check ok in 9ms"}
+{"ts": "2026-10-21T13:40:00Z", "service": "inventory-api", "level": "INFO", "message": "health check ok in 5ms"}
+{"ts": "2026-10-21T13:40:14Z", "service": "checkout-api", "level": "INFO", "message": "health check ok in 8ms"}
+{"ts": "2026-10-21T13:40:14Z", "service": "payments-db", "level": "INFO", "message": "health check ok in 8ms"}
+{"ts": "2026-10-21T13:41:06Z", "service": "checkout-api", "level": "INFO", "message": "health check ok in 11ms"}
+{"ts": "2026-10-21T13:41:15Z", "service": "inventory-api", "level": "INFO", "message": "health check ok in 14ms"}
+{"ts": "2026-10-21T13:41:17Z", "service": "payments-db", "level": "INFO", "message": "health check ok in 14ms"}
+{"ts": "2026-10-21T13:42:04Z", "service": "payments-db", "level": "INFO", "message": "health check ok in 4ms"}
+{"ts": "2026-10-21T13:42:10Z", "service": "inventory-api", "level": "INFO", "message": "health check ok in 10ms"}
+{"ts": "2026-10-21T13:42:19Z", "service": "checkout-api", "level": "INFO", "message": "health check ok in 5ms"}
+{"ts": "2026-10-21T13:43:08Z", "service": "checkout-api", "level": "INFO", "message": "health check ok in 13ms"}
+{"ts": "2026-10-21T13:43:10Z", "service": "payments-db", "level": "INFO", "message": "health check ok in 5ms"}
+{"ts": "2026-10-21T13:43:14Z", "service": "inventory-api", "level": "INFO", "message": "health check ok in 13ms"}
+{"ts": "2026-10-21T13:44:04Z", "service": "checkout-api", "level": "INFO", "message": "health check ok in 10ms"}
+{"ts": "2026-10-21T13:44:09Z", "service": "inventory-api", "level": "INFO", "message": "health check ok in 11ms"}
+{"ts": "2026-10-21T13:44:14Z", "service": "payments-db", "level": "INFO", "message": "health check ok in 7ms"}
+{"ts": "2026-10-21T13:45:05Z", "service": "checkout-api", "level": "INFO", "message": "health check ok in 4ms"}
+{"ts": "2026-10-21T13:45:16Z", "service": "inventory-api", "level": "INFO", "message": "health check ok in 12ms"}
+{"ts": "2026-10-21T13:45:19Z", "service": "payments-db", "level": "INFO", "message": "health check ok in 13ms"}
+{"ts": "2026-10-21T13:45:30Z", "service": "inventory-api", "level": "WARN", "message": "slow query 812ms on table stock_levels"}
+{"ts": "2026-10-21T13:46:03Z", "service": "payments-db", "level": "INFO", "message": "health check ok in 12ms"}
+{"ts": "2026-10-21T13:46:04Z", "service": "checkout-api", "level": "INFO", "message": "health check ok in 11ms"}
+{"ts": "2026-10-21T13:46:20Z", "service": "inventory-api", "level": "INFO", "message": "health check ok in 5ms"}
+{"ts": "2026-10-21T13:47:06Z", "service": "checkout-api", "level": "INFO", "message": "health check ok in 11ms"}
+{"ts": "2026-10-21T13:47:15Z", "service": "inventory-api", "level": "INFO", "message": "health check ok in 6ms"}
+{"ts": "2026-10-21T13:47:15Z", "service": "payments-db", "level": "INFO", "message": "health check ok in 14ms"}
+{"ts": "2026-10-21T13:48:02Z", "service": "payments-db", "level": "INFO", "message": "health check ok in 4ms"}
+{"ts": "2026-10-21T13:48:16Z", "service": "inventory-api", "level": "INFO", "message": "health check ok in 7ms"}
+{"ts": "2026-10-21T13:48:19Z", "service": "checkout-api", "level": "INFO", "message": "health check ok in 12ms"}
+{"ts": "2026-10-21T13:49:05Z", "service": "payments-db", "level": "INFO", "message": "health check ok in 11ms"}
+{"ts": "2026-10-21T13:49:09Z", "service": "checkout-api", "level": "INFO", "message": "health check ok in 9ms"}
+{"ts": "2026-10-21T13:49:20Z", "service": "inventory-api", "level": "INFO", "message": "health check ok in 10ms"}
+{"ts": "2026-10-21T13:50:11Z", "service": "inventory-api", "level": "INFO", "message": "health check ok in 12ms"}
+{"ts": "2026-10-21T13:50:12Z", "service": "checkout-api", "level": "INFO", "message": "health check ok in 11ms"}
+{"ts": "2026-10-21T13:50:19Z", "service": "payments-db", "level": "INFO", "message": "health check ok in 12ms"}
+{"ts": "2026-10-21T13:51:02Z", "service": "checkout-api", "level": "INFO", "message": "health check ok in 6ms"}
+{"ts": "2026-10-21T13:51:06Z", "service": "inventory-api", "level": "INFO", "message": "health check ok in 6ms"}
+{"ts": "2026-10-21T13:51:10Z", "service": "payments-db", "level": "INFO", "message": "health check ok in 4ms"}
+{"ts": "2026-10-21T13:52:02Z", "service": "inventory-api", "level": "INFO", "message": "health check ok in 12ms"}
+{"ts": "2026-10-21T13:52:05Z", "service": "checkout-api", "level": "INFO", "message": "health check ok in 8ms"}
+{"ts": "2026-10-21T13:52:07Z", "service": "payments-db", "level": "INFO", "message": "health check ok in 15ms"}
+{"ts": "2026-10-21T13:53:04Z", "service": "inventory-api", "level": "INFO", "message": "health check ok in 4ms"}
+{"ts": "2026-10-21T13:53:15Z", "service": "checkout-api", "level": "INFO", "message": "health check ok in 8ms"}
+{"ts": "2026-10-21T13:53:20Z", "service": "payments-db", "level": "INFO", "message": "health check ok in 11ms"}
+{"ts": "2026-10-21T13:54:01Z", "service": "checkout-api", "level": "INFO", "message": "health check ok in 5ms"}
+{"ts": "2026-10-21T13:54:05Z", "service": "inventory-api", "level": "INFO", "message": "health check ok in 14ms"}
+{"ts": "2026-10-21T13:54:08Z", "service": "payments-db", "level": "INFO", "message": "health check ok in 13ms"}
+{"ts": "2026-10-21T13:55:08Z", "service": "payments-db", "level": "INFO", "message": "health check ok in 8ms"}
+{"ts": "2026-10-21T13:55:13Z", "service": "checkout-api", "level": "INFO", "message": "health check ok in 4ms"}
+{"ts": "2026-10-21T13:55:14Z", "service": "inventory-api", "level": "INFO", "message": "health check ok in 13ms"}
+{"ts": "2026-10-21T13:56:02Z", "service": "inventory-api", "level": "INFO", "message": "health check ok in 13ms"}
+{"ts": "2026-10-21T13:56:14Z", "service": "checkout-api", "level": "INFO", "message": "health check ok in 6ms"}
+{"ts": "2026-10-21T13:56:14Z", "service": "payments-db", "level": "INFO", "message": "health check ok in 7ms"}
+{"ts": "2026-10-21T13:57:01Z", "service": "inventory-api", "level": "INFO", "message": "health check ok in 5ms"}
+{"ts": "2026-10-21T13:57:11Z", "service": "checkout-api", "level": "INFO", "message": "health check ok in 14ms"}
+{"ts": "2026-10-21T13:57:19Z", "service": "payments-db", "level": "INFO", "message": "health check ok in 6ms"}
+{"ts": "2026-10-21T13:58:04Z", "service": "checkout-api", "level": "INFO", "message": "health check ok in 8ms"}
+{"ts": "2026-10-21T13:58:05Z", "service": "inventory-api", "level": "INFO", "message": "health check ok in 6ms"}
+{"ts": "2026-10-21T13:58:07Z", "service": "payments-db", "level": "INFO", "message": "health check ok in 3ms"}
+{"ts": "2026-10-21T13:59:01Z", "service": "checkout-api", "level": "INFO", "message": "health check ok in 9ms"}
+{"ts": "2026-10-21T13:59:16Z", "service": "inventory-api", "level": "INFO", "message": "health check ok in 7ms"}
+{"ts": "2026-10-21T13:59:17Z", "service": "payments-db", "level": "INFO", "message": "health check ok in 5ms"}
+{"ts": "2026-10-21T14:00:03Z", "service": "payments-db", "level": "INFO", "message": "health check ok in 5ms"}
+{"ts": "2026-10-21T14:00:06Z", "service": "inventory-api", "level": "INFO", "message": "health check ok in 11ms"}
+{"ts": "2026-10-21T14:00:18Z", "service": "checkout-api", "level": "INFO", "message": "health check ok in 5ms"}
+{"ts": "2026-10-21T14:01:01Z", "service": "checkout-api", "level": "INFO", "message": "health check ok in 7ms"}
+{"ts": "2026-10-21T14:01:02Z", "service": "payments-db", "level": "INFO", "message": "health check ok in 14ms"}
+{"ts": "2026-10-21T14:01:12Z", "service": "inventory-api", "level": "INFO", "message": "health check ok in 13ms"}
+{"ts": "2026-10-21T14:02:04Z", "service": "checkout-api", "level": "INFO", "message": "health check ok in 9ms"}
+{"ts": "2026-10-21T14:02:05Z", "service": "payments-db", "level": "INFO", "message": "health check ok in 6ms"}
+{"ts": "2026-10-21T14:02:06Z", "service": "inventory-api", "level": "INFO", "message": "health check ok in 10ms"}
+{"ts": "2026-10-21T14:03:01Z", "service": "checkout-api", "level": "INFO", "message": "health check ok in 7ms"}
+{"ts": "2026-10-21T14:03:05Z", "service": "checkout-api", "level": "INFO", "message": "deploy v2.14.0 rolling out: 1/6 pods updated"}
+{"ts": "2026-10-21T14:03:12Z", "service": "inventory-api", "level": "INFO", "message": "health check ok in 5ms"}
+{"ts": "2026-10-21T14:03:12Z", "service": "payments-db", "level": "INFO", "message": "health check ok in 11ms"}
+{"ts": "2026-10-21T14:04:03Z", "service": "checkout-api", "level": "INFO", "message": "health check ok in 15ms"}
+{"ts": "2026-10-21T14:04:04Z", "service": "inventory-api", "level": "INFO", "message": "health check ok in 6ms"}
+{"ts": "2026-10-21T14:04:17Z", "service": "payments-db", "level": "INFO", "message": "health check ok in 10ms"}
+{"ts": "2026-10-21T14:05:01Z", "service": "checkout-api", "level": "INFO", "message": "health check ok in 14ms"}
+{"ts": "2026-10-21T14:05:01Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=56)"}
+{"ts": "2026-10-21T14:05:05Z", "service": "inventory-api", "level": "INFO", "message": "health check ok in 3ms"}
+{"ts": "2026-10-21T14:05:05Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=40)"}
+{"ts": "2026-10-21T14:05:11Z", "service": "payments-db", "level": "WARN", "message": "connection rejected: too many connections (current=200, max=200, client=checkout-3)"}
+{"ts": "2026-10-21T14:05:12Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=34)"}
+{"ts": "2026-10-21T14:05:15Z", "service": "payments-db", "level": "INFO", "message": "health check ok in 8ms"}
+{"ts": "2026-10-21T14:05:15Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=33)"}
+{"ts": "2026-10-21T14:05:26Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=36)"}
+{"ts": "2026-10-21T14:05:32Z", "service": "payments-db", "level": "WARN", "message": "connection rejected: too many connections (current=200, max=200, client=checkout-1)"}
+{"ts": "2026-10-21T14:05:34Z", "service": "checkout-api", "level": "WARN", "message": "retrying payment request attempt=2"}
+{"ts": "2026-10-21T14:05:43Z", "service": "payments-db", "level": "WARN", "message": "connection rejected: too many connections (current=200, max=200, client=checkout-6)"}
+{"ts": "2026-10-21T14:05:52Z", "service": "payments-db", "level": "WARN", "message": "connection rejected: too many connections (current=200, max=200, client=checkout-1)"}
+{"ts": "2026-10-21T14:05:53Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=48)"}
+{"ts": "2026-10-21T14:06:06Z", "service": "payments-db", "level": "WARN", "message": "connection rejected: too many connections (current=200, max=200, client=checkout-1)"}
+{"ts": "2026-10-21T14:06:09Z", "service": "inventory-api", "level": "INFO", "message": "health check ok in 8ms"}
+{"ts": "2026-10-21T14:06:13Z", "service": "checkout-api", "level": "INFO", "message": "health check ok in 4ms"}
+{"ts": "2026-10-21T14:06:13Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=51)"}
+{"ts": "2026-10-21T14:06:17Z", "service": "payments-db", "level": "INFO", "message": "health check ok in 9ms"}
+{"ts": "2026-10-21T14:06:19Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=39)"}
+{"ts": "2026-10-21T14:06:24Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=53)"}
+{"ts": "2026-10-21T14:06:26Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=20)"}
+{"ts": "2026-10-21T14:06:27Z", "service": "payments-db", "level": "WARN", "message": "connection rejected: too many connections (current=200, max=200, client=checkout-3)"}
+{"ts": "2026-10-21T14:06:30Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=54)"}
+{"ts": "2026-10-21T14:06:32Z", "service": "checkout-api", "level": "WARN", "message": "retrying payment request attempt=2"}
+{"ts": "2026-10-21T14:06:42Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=40)"}
+{"ts": "2026-10-21T14:06:42Z", "service": "payments-db", "level": "WARN", "message": "connection rejected: too many connections (current=200, max=200, client=checkout-6)"}
+{"ts": "2026-10-21T14:06:48Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=35)"}
+{"ts": "2026-10-21T14:07:04Z", "service": "checkout-api", "level": "INFO", "message": "health check ok in 13ms"}
+{"ts": "2026-10-21T14:07:07Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=56)"}
+{"ts": "2026-10-21T14:07:07Z", "service": "payments-db", "level": "WARN", "message": "connection rejected: too many connections (current=200, max=200, client=checkout-2)"}
+{"ts": "2026-10-21T14:07:15Z", "service": "payments-db", "level": "WARN", "message": "connection rejected: too many connections (current=200, max=200, client=checkout-4)"}
+{"ts": "2026-10-21T14:07:16Z", "service": "inventory-api", "level": "INFO", "message": "health check ok in 12ms"}
+{"ts": "2026-10-21T14:07:20Z", "service": "payments-db", "level": "INFO", "message": "health check ok in 10ms"}
+{"ts": "2026-10-21T14:07:21Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=20)"}
+{"ts": "2026-10-21T14:07:26Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=35)"}
+{"ts": "2026-10-21T14:07:26Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=36)"}
+{"ts": "2026-10-21T14:07:31Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=43)"}
+{"ts": "2026-10-21T14:07:31Z", "service": "payments-db", "level": "WARN", "message": "connection rejected: too many connections (current=200, max=200, client=checkout-5)"}
+{"ts": "2026-10-21T14:07:40Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=49)"}
+{"ts": "2026-10-21T14:07:42Z", "service": "checkout-api", "level": "WARN", "message": "retrying payment request attempt=3"}
+{"ts": "2026-10-21T14:07:52Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=44)"}
+{"ts": "2026-10-21T14:07:59Z", "service": "payments-db", "level": "WARN", "message": "connection rejected: too many connections (current=200, max=200, client=checkout-4)"}
+{"ts": "2026-10-21T14:08:01Z", "service": "payments-db", "level": "INFO", "message": "health check ok in 9ms"}
+{"ts": "2026-10-21T14:08:09Z", "service": "inventory-api", "level": "INFO", "message": "health check ok in 3ms"}
+{"ts": "2026-10-21T14:08:17Z", "service": "checkout-api", "level": "INFO", "message": "health check ok in 5ms"}
+{"ts": "2026-10-21T14:08:28Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=48)"}
+{"ts": "2026-10-21T14:08:35Z", "service": "checkout-api", "level": "WARN", "message": "retrying payment request attempt=2"}
+{"ts": "2026-10-21T14:08:36Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=49)"}
+{"ts": "2026-10-21T14:08:36Z", "service": "payments-db", "level": "WARN", "message": "connection rejected: too many connections (current=200, max=200, client=checkout-1)"}
+{"ts": "2026-10-21T14:08:39Z", "service": "payments-db", "level": "WARN", "message": "connection rejected: too many connections (current=200, max=200, client=checkout-2)"}
+{"ts": "2026-10-21T14:08:40Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=23)"}
+{"ts": "2026-10-21T14:08:40Z", "service": "payments-db", "level": "WARN", "message": "connection rejected: too many connections (current=200, max=200, client=checkout-6)"}
+{"ts": "2026-10-21T14:08:44Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=22)"}
+{"ts": "2026-10-21T14:08:47Z", "service": "payments-db", "level": "WARN", "message": "connection rejected: too many connections (current=200, max=200, client=checkout-3)"}
+{"ts": "2026-10-21T14:08:49Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=41)"}
+{"ts": "2026-10-21T14:08:49Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=27)"}
+{"ts": "2026-10-21T14:08:59Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=25)"}
+{"ts": "2026-10-21T14:09:02Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=32)"}
+{"ts": "2026-10-21T14:09:02Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=44)"}
+{"ts": "2026-10-21T14:09:07Z", "service": "inventory-api", "level": "INFO", "message": "health check ok in 10ms"}
+{"ts": "2026-10-21T14:09:11Z", "service": "payments-db", "level": "WARN", "message": "connection rejected: too many connections (current=200, max=200, client=checkout-5)"}
+{"ts": "2026-10-21T14:09:14Z", "service": "payments-db", "level": "WARN", "message": "connection rejected: too many connections (current=200, max=200, client=checkout-1)"}
+{"ts": "2026-10-21T14:09:15Z", "service": "checkout-api", "level": "INFO", "message": "health check ok in 14ms"}
+{"ts": "2026-10-21T14:09:17Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=26)"}
+{"ts": "2026-10-21T14:09:20Z", "service": "payments-db", "level": "INFO", "message": "health check ok in 12ms"}
+{"ts": "2026-10-21T14:09:23Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=22)"}
+{"ts": "2026-10-21T14:09:27Z", "service": "payments-db", "level": "WARN", "message": "connection rejected: too many connections (current=200, max=200, client=checkout-1)"}
+{"ts": "2026-10-21T14:09:28Z", "service": "checkout-api", "level": "WARN", "message": "retrying payment request attempt=2"}
+{"ts": "2026-10-21T14:09:48Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=24)"}
+{"ts": "2026-10-21T14:09:50Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=44)"}
+{"ts": "2026-10-21T14:09:51Z", "service": "payments-db", "level": "WARN", "message": "connection rejected: too many connections (current=200, max=200, client=checkout-2)"}
+{"ts": "2026-10-21T14:09:53Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=57)"}
+{"ts": "2026-10-21T14:09:55Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=56)"}
+{"ts": "2026-10-21T14:09:57Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=38)"}
+{"ts": "2026-10-21T14:10:03Z", "service": "payments-db", "level": "INFO", "message": "health check ok in 14ms"}
+{"ts": "2026-10-21T14:10:06Z", "service": "inventory-api", "level": "INFO", "message": "health check ok in 14ms"}
+{"ts": "2026-10-21T14:10:08Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=51)"}
+{"ts": "2026-10-21T14:10:11Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=31)"}
+{"ts": "2026-10-21T14:10:13Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=60)"}
+{"ts": "2026-10-21T14:10:16Z", "service": "checkout-api", "level": "INFO", "message": "health check ok in 6ms"}
+{"ts": "2026-10-21T14:10:18Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=50)"}
+{"ts": "2026-10-21T14:10:26Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=24)"}
+{"ts": "2026-10-21T14:10:26Z", "service": "payments-db", "level": "WARN", "message": "connection rejected: too many connections (current=200, max=200, client=checkout-4)"}
+{"ts": "2026-10-21T14:10:32Z", "service": "checkout-api", "level": "WARN", "message": "retrying payment request attempt=3"}
+{"ts": "2026-10-21T14:10:34Z", "service": "payments-db", "level": "WARN", "message": "connection rejected: too many connections (current=200, max=200, client=checkout-3)"}
+{"ts": "2026-10-21T14:10:35Z", "service": "payments-db", "level": "WARN", "message": "connection rejected: too many connections (current=200, max=200, client=checkout-5)"}
+{"ts": "2026-10-21T14:10:46Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=35)"}
+{"ts": "2026-10-21T14:10:46Z", "service": "payments-db", "level": "WARN", "message": "connection rejected: too many connections (current=200, max=200, client=checkout-4)"}
+{"ts": "2026-10-21T14:10:49Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=54)"}
+{"ts": "2026-10-21T14:10:54Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=32)"}
+{"ts": "2026-10-21T14:11:01Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=23)"}
+{"ts": "2026-10-21T14:11:03Z", "service": "payments-db", "level": "INFO", "message": "health check ok in 14ms"}
+{"ts": "2026-10-21T14:11:06Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=44)"}
+{"ts": "2026-10-21T14:11:08Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=24)"}
+{"ts": "2026-10-21T14:11:08Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=46)"}
+{"ts": "2026-10-21T14:11:11Z", "service": "checkout-api", "level": "WARN", "message": "retrying payment request attempt=3"}
+{"ts": "2026-10-21T14:11:13Z", "service": "inventory-api", "level": "INFO", "message": "health check ok in 11ms"}
+{"ts": "2026-10-21T14:11:20Z", "service": "checkout-api", "level": "INFO", "message": "health check ok in 8ms"}
+{"ts": "2026-10-21T14:11:20Z", "service": "payments-db", "level": "WARN", "message": "connection rejected: too many connections (current=200, max=200, client=checkout-5)"}
+{"ts": "2026-10-21T14:11:21Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=38)"}
+{"ts": "2026-10-21T14:11:34Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=50)"}
+{"ts": "2026-10-21T14:11:40Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=53)"}
+{"ts": "2026-10-21T14:11:49Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=42)"}
+{"ts": "2026-10-21T14:11:49Z", "service": "payments-db", "level": "WARN", "message": "connection rejected: too many connections (current=200, max=200, client=checkout-5)"}
+{"ts": "2026-10-21T14:12:00Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=33)"}
+{"ts": "2026-10-21T14:12:01Z", "service": "inventory-api", "level": "INFO", "message": "health check ok in 4ms"}
+{"ts": "2026-10-21T14:12:01Z", "service": "payments-db", "level": "INFO", "message": "health check ok in 11ms"}
+{"ts": "2026-10-21T14:12:03Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=31)"}
+{"ts": "2026-10-21T14:12:10Z", "service": "payments-db", "level": "WARN", "message": "connection rejected: too many connections (current=200, max=200, client=checkout-3)"}
+{"ts": "2026-10-21T14:12:14Z", "service": "payments-db", "level": "WARN", "message": "connection rejected: too many connections (current=200, max=200, client=checkout-5)"}
+{"ts": "2026-10-21T14:12:15Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=28)"}
+{"ts": "2026-10-21T14:12:18Z", "service": "checkout-api", "level": "INFO", "message": "health check ok in 5ms"}
+{"ts": "2026-10-21T14:12:30Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=39)"}
+{"ts": "2026-10-21T14:12:33Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=43)"}
+{"ts": "2026-10-21T14:12:35Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=57)"}
+{"ts": "2026-10-21T14:12:43Z", "service": "checkout-api", "level": "WARN", "message": "retrying payment request attempt=2"}
+{"ts": "2026-10-21T14:12:50Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=38)"}
+{"ts": "2026-10-21T14:12:58Z", "service": "checkout-api", "level": "ERROR", "message": "payment call failed: db pool timeout after 5000ms (pool=payments, waiting=49)"}
+{"ts": "2026-10-21T14:12:59Z", "service": "payments-db", "level": "WARN", "message": "connection rejected: too many connections (current=200, max=200, client=checkout-2)"}

@@ -1,0 +1,25 @@
+{
+  "bad_deploy": {
+    "title": "Suspected bad deploy",
+    "steps": [
+      {"tool": "freeze_deploys", "args": {"service": "{service}"}, "why": "Stop new changes landing on {service} while we mitigate."},
+      {"tool": "restart_service", "args": {"service": "{service}"}, "why": "Fastest mitigation to try: recycle {service} pods."},
+      {"tool": "rollback_deploy", "args": {"service": "{service}", "to_version": "{previous_version}"}, "why": "Revert {service} to {previous_version}, the last version with healthy SLOs."},
+      {"tool": "verify_recovery", "args": {"service": "{service}"}, "why": "Confirm {service} is back inside its SLO."}
+    ]
+  },
+  "dependency_saturation": {
+    "title": "Dependency saturated",
+    "steps": [
+      {"tool": "scale_db_connections", "args": {"service": "{dependency}", "max_connections": 400}, "why": "Give {dependency} more connection headroom."},
+      {"tool": "verify_recovery", "args": {"service": "{service}"}, "why": "Confirm {service} is back inside its SLO."}
+    ]
+  },
+  "traffic_surge": {
+    "title": "Traffic surge",
+    "steps": [
+      {"tool": "scale_out", "args": {"service": "{service}", "replicas": 12}, "why": "Add capacity to absorb the surge."},
+      {"tool": "verify_recovery", "args": {"service": "{service}"}, "why": "Confirm {service} is back inside its SLO."}
+    ]
+  }
+}

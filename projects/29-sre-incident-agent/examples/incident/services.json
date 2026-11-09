@@ -1,0 +1,5 @@
+{
+  "checkout-api": {"team": "payments", "depends_on": ["payments-db", "inventory-api"], "slo": {"latency_p95_ms": 300, "error_rate_pct": 1.0}},
+  "inventory-api": {"team": "catalog", "depends_on": [], "slo": {"latency_p95_ms": 250, "error_rate_pct": 1.0}},
+  "payments-db": {"team": "data-platform", "depends_on": [], "slo": {}}
+}
