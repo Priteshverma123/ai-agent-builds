@@ -1,0 +1,15 @@
+{
+  "product": "Snapshots",
+  "task": "Write a short launch announcement of the new Snapshots feature for developers.",
+  "audience": "developers",
+  "facts": [
+    "Snapshots saves your whole dev environment in one click.",
+    "You can restore any snapshot in under 10 seconds.",
+    "Snapshots is free on all plans, including Free.",
+    "When an experiment breaks your setup, roll back and keep coding."
+  ],
+  "required_keywords": ["Snapshots", "10 seconds", "free"],
+  "banned_phrases": ["revolutionary", "game-changing", "best-in-class", "synergy"],
+  "min_words": 40,
+  "max_words": 80
+}
