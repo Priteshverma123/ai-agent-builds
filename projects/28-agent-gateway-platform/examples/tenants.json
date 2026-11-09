@@ -1,0 +1,27 @@
+{
+  "plans": {
+    "free": {
+      "requests_per_minute": 6,
+      "burst": 3,
+      "monthly_budget_usd": 0.0012,
+      "allowed_models": ["alpha-fast", "beta-fast"]
+    },
+    "pro": {
+      "requests_per_minute": 120,
+      "burst": 10,
+      "monthly_budget_usd": 5.0,
+      "allowed_models": ["alpha-fast", "alpha-pro", "beta-fast", "beta-pro"]
+    },
+    "internal": {
+      "requests_per_minute": 600,
+      "burst": 50,
+      "monthly_budget_usd": 100.0,
+      "allowed_models": ["alpha-fast", "alpha-pro", "beta-fast", "beta-pro"]
+    }
+  },
+  "tenants": [
+    {"id": "acme", "name": "Acme Robotics", "plan": "pro", "api_keys": ["sk-acme-demo-0001"]},
+    {"id": "hobby", "name": "Weekend Hacker", "plan": "free", "api_keys": ["sk-hobby-demo-0002"]},
+    {"id": "ops", "name": "Platform Team", "plan": "internal", "admin": true, "api_keys": ["sk-ops-admin-0003"]}
+  ]
+}
