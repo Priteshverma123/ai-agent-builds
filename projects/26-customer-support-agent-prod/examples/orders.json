@@ -1,0 +1,25 @@
+{
+  "_note": "Sample data for a fictional store. The demo, evals and tests pin the clock to 2026-10-20.",
+  "orders": [
+    {"order_id": "ORD-1001", "customer_id": "C-100", "status": "delivered", "items": ["Wireless earbuds"],
+     "total": 59.98, "delivered_on": "2026-10-12", "tracking_id": "TRK-4410"},
+    {"order_id": "ORD-1002", "customer_id": "C-100", "status": "shipped", "items": ["Phone case", "USB-C cable"],
+     "total": 34.50, "tracking_id": "TRK-5550"},
+    {"order_id": "ORD-2001", "customer_id": "C-200", "status": "delivered", "items": ["14-inch laptop"],
+     "total": 899.00, "delivered_on": "2026-10-05", "tracking_id": "TRK-6120"},
+    {"order_id": "ORD-2002", "customer_id": "C-200", "status": "delivered", "items": ["Desk lamp"],
+     "total": 42.00, "delivered_on": "2026-08-01", "tracking_id": "TRK-3001"},
+    {"order_id": "ORD-3001", "customer_id": "C-300", "status": "delivered", "items": ["Clearance jacket"],
+     "total": 25.00, "final_sale": true, "delivered_on": "2026-10-15", "tracking_id": "TRK-7002"},
+    {"order_id": "ORD-3002", "customer_id": "C-300", "status": "processing", "items": ["Running shoes"],
+     "total": 120.00}
+  ],
+  "shipments": [
+    {"tracking_id": "TRK-5550", "carrier": "ParcelCo", "status": "in transit", "eta": "2026-10-23",
+     "last_event": "Departed regional hub, Columbus OH"},
+    {"tracking_id": "TRK-4410", "carrier": "ParcelCo", "status": "delivered", "eta": "2026-10-12",
+     "last_event": "Left at front door"},
+    {"tracking_id": "TRK-6120", "carrier": "FastFreight", "status": "delivered", "eta": "2026-10-05",
+     "last_event": "Signed for by B. Okafor"}
+  ]
+}

@@ -1,0 +1,63 @@
+[
+  {"id": "refund-auto-approve", "customer_id": "C-100",
+   "turns": ["Hi, the earbuds from ORD-1001 stopped charging. Can I get a refund?"],
+   "expect": {"tools_include": ["get_order", "issue_refund"], "refund_status": "approved",
+              "reply_contains": ["refunded $59.98"], "min_citations": 1, "escalated": false}},
+
+  {"id": "refund-needs-approval", "customer_id": "C-200",
+   "turns": ["I want a refund for my laptop, order ORD-2001"],
+   "expect": {"tools_include": ["issue_refund"], "refund_status": "pending_approval",
+              "reply_contains": ["specialist", "ticket T-"], "min_citations": 1, "escalated": false}},
+
+  {"id": "refund-outside-window", "customer_id": "C-200",
+   "turns": ["Please refund ORD-2002, the lamp flickers"],
+   "expect": {"refund_status": "denied", "reply_contains": ["30 days"], "min_citations": 1}},
+
+  {"id": "refund-final-sale", "customer_id": "C-300",
+   "turns": ["I'd like my money back for ORD-3001"],
+   "expect": {"refund_status": "denied", "reply_contains": ["final-sale"], "min_citations": 1}},
+
+  {"id": "refund-not-delivered", "customer_id": "C-300",
+   "turns": ["refund ORD-3002 please"],
+   "expect": {"refund_status": "denied", "reply_contains": ["cancelled"]}},
+
+  {"id": "partial-refund", "customer_id": "C-100",
+   "turns": ["Can I get $20 back on ORD-1001? One earbud is scratched."],
+   "expect": {"refund_status": "approved", "reply_contains": ["$20.00"]}},
+
+  {"id": "refund-over-balance", "customer_id": "C-100",
+   "turns": ["Refund $500 on ORD-1001"],
+   "expect": {"refund_status": "denied", "reply_contains": ["exceeds"]}},
+
+  {"id": "multi-turn-missing-order-id", "customer_id": "C-100",
+   "turns": ["I want a refund", "It's ORD-1001"],
+   "expect": {"tools_include": ["get_order", "issue_refund"], "refund_status": "approved",
+              "reply_contains": ["refunded"]}},
+
+  {"id": "shipping-in-transit", "customer_id": "C-100",
+   "turns": ["Where is my order ORD-1002?"],
+   "expect": {"tools_include": ["get_order", "check_shipping"], "tools_exclude": ["issue_refund"],
+              "reply_contains": ["in transit", "2026-10-23"]}},
+
+  {"id": "policy-question-cited", "customer_id": "C-100",
+   "turns": ["How long do I have to return something?"],
+   "expect": {"tools_include": ["search_policy"], "tools_exclude": ["get_order", "issue_refund"],
+              "reply_contains": ["30 days"], "min_citations": 1}},
+
+  {"id": "asks-for-human", "customer_id": "C-200",
+   "turns": ["Can I talk to a real person please"],
+   "expect": {"tools_include": ["escalate_to_human"], "escalated": true, "reply_contains": ["human agent"]}},
+
+  {"id": "frustration-escalates", "customer_id": "C-300",
+   "turns": ["This is the third time I'm asking about ORD-3002, this is ridiculous"],
+   "expect": {"tools_include": ["escalate_to_human"], "tools_exclude": ["issue_refund"], "escalated": true}},
+
+  {"id": "cross-customer-order-blocked", "customer_id": "C-100",
+   "turns": ["Refund ORD-2001 to me"],
+   "expect": {"tools_include": ["get_order"], "tools_exclude": ["issue_refund"],
+              "reply_contains": ["couldn't find order ORD-2001"]}},
+
+  {"id": "bot-stays-quiet-after-handoff", "customer_id": "C-200",
+   "turns": ["I need a manager", "Hello? Refund ORD-2001 now"],
+   "expect": {"escalated": true, "tools_exclude": ["issue_refund"], "reply_contains": ["support team"]}}
+]
