@@ -1,0 +1,5 @@
+# Runtime: Python 3.11+ standard library only.
+pytest==8.3.4
+# Optional, only for a real model:
+# anthropic   (LLM_PROVIDER=anthropic)
+# openai      (LLM_PROVIDER=openai)
