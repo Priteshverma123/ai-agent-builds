@@ -1,0 +1,5 @@
+Which 3 products bring in the most revenue?
+Show monthly revenue for 2026
+What is the average order value by country?
+How many customers do we have?
+Delete all refunded orders to clean up the data
