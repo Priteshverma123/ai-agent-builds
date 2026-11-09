@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "code-review-agent"
+version = "0.1.0"
+description = "A diff-aware code review agent: static checks, a guarded LLM pass and a CI verdict (exe_404.ai project 17)."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["pydantic==2.10.6"]
+
+[project.optional-dependencies]
+anthropic = ["anthropic"]
+openai = ["openai"]
+dev = ["pytest==8.3.4"]
+
+[project.scripts]
+review-agent = "reviewer.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+src = ["src", "tests"]
+extend-exclude = ["examples"]  # deliberately buggy code under review
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
