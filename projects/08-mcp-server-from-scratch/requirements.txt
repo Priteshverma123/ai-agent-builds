@@ -1,0 +1,2 @@
+# The server itself uses only the Python 3.11+ standard library.
+pytest==8.3.4

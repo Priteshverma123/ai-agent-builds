@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "team-notebook": {
+      "command": "python",
+      "args": ["C:/absolute/path/to/ai-agent-builds/projects/08-mcp-server-from-scratch/server.py"]
+    }
+  }
+}
