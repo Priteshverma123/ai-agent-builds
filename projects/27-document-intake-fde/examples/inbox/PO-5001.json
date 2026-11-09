@@ -1,0 +1,4 @@
+{"document_type": "purchase_order", "po_number": "PO-5001", "vendor_name": "Acme Industrial Supply Co.",
+ "order_date": "2026-09-20", "currency": "USD",
+ "lines": [{"sku": "BOLT-M8", "description": "Hex bolt M8 x 40 (box)", "quantity": 10, "unit_price": 12.50, "amount": 125.00},
+           {"sku": "NUT-M8", "description": "Hex nut M8 (box)", "quantity": 10, "unit_price": 6.20, "amount": 62.00}]}

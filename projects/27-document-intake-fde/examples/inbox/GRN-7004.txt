@@ -1,0 +1,10 @@
+NORTHWIND MANUFACTURING - RECEIVING
+GOODS RECEIVED NOTE
+GRN No: GRN-7004
+PO Number: PO-5004
+Received Date: 2026-10-07
+Received By: D. Kim
+
+SKU        Qty Received   Condition
+GLOVE-L    40             OK
+MASK-N95   100            OK

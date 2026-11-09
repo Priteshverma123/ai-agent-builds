@@ -1,0 +1,15 @@
+Globex Office Products
+Remit to: PO Box 991, Springfield IL
+
+INVOICE #GX-30422
+Date: 10/12/2026
+Payment due: 11/11/2026
+Your PO: PO-5002
+Bill To: Northwind Manufacturing
+
+SKU        Description               Qty   Unit Price     Amount
+TONER-K    Toner cartridge black       1        64.00      64.00
+
+Subtotal: 64.00
+Sales tax 8%: 5.12
+Amount Due: USD 71.12

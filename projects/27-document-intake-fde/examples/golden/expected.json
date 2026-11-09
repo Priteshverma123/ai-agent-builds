@@ -1,0 +1,31 @@
+{
+  "_note": "Hand-labelled answers for every document in examples/inbox. This is the acceptance set the client signs off on.",
+  "documents": {
+    "INV-1001.txt": {"doc_type": "invoice", "status": "approved", "exceptions": [],
+      "fields": {"invoice_number": "A-88121", "vendor_id": "V-001", "po_number": "PO-5001", "invoice_date": "2026-10-02", "total": 200.09}},
+    "INV-1002.txt": {"doc_type": "invoice", "status": "exception", "exceptions": ["PRICE_VARIANCE"],
+      "fields": {"invoice_number": "GX-30417", "vendor_id": "V-002", "po_number": "PO-5002", "invoice_date": "2026-10-05", "total": 226.80}},
+    "INV-1003.txt": {"doc_type": "invoice", "status": "exception", "exceptions": ["QTY_EXCEEDS_RECEIVED"],
+      "fields": {"invoice_number": "IN-2231", "vendor_id": "V-003", "po_number": "PO-5003", "invoice_date": "2026-10-08", "total": 1054.70}},
+    "INV-1004.json": {"doc_type": "invoice", "status": "approved", "exceptions": [],
+      "fields": {"invoice_number": "A-88190", "vendor_id": "V-001", "po_number": "PO-5004", "invoice_date": "2026-10-10", "total": 256.80}},
+    "INV-1005.txt": {"doc_type": "invoice", "status": "exception", "exceptions": ["UNKNOWN_VENDOR", "MISSING_PO"],
+      "fields": {"invoice_number": "SP-0001", "vendor_id": null, "po_number": null, "invoice_date": "2026-10-11", "total": 480.00}},
+    "INV-1006.txt": {"doc_type": "invoice", "status": "exception", "exceptions": ["TOTAL_MISMATCH"],
+      "fields": {"invoice_number": "GX-30422", "vendor_id": "V-002", "po_number": "PO-5002", "invoice_date": "2026-10-12", "total": 71.12}},
+    "INV-1007.txt": {"doc_type": "invoice", "status": "exception", "exceptions": ["DATE_INVALID"],
+      "fields": {"invoice_number": "A-88250", "vendor_id": "V-001", "po_number": "PO-5001", "invoice_date": "2026-11-15", "total": 66.88}},
+    "INV-1008.txt": {"doc_type": "invoice", "status": "exception", "exceptions": ["DUPLICATE_INVOICE"],
+      "fields": {"invoice_number": "IN-2207", "vendor_id": "V-003", "po_number": "PO-5003", "invoice_date": "2026-09-15", "total": 25.44}},
+    "scan_0042.txt": {"doc_type": "invoice", "status": "exception", "exceptions": ["EXTRACTION_FAILED"], "fields": {}},
+    "newsletter.txt": {"doc_type": "unknown", "status": "exception", "exceptions": ["UNCLASSIFIED"], "fields": {}},
+    "PO-5001.json": {"doc_type": "purchase_order", "status": "reference", "exceptions": [], "fields": {"po_number": "PO-5001"}},
+    "PO-5002.json": {"doc_type": "purchase_order", "status": "reference", "exceptions": [], "fields": {"po_number": "PO-5002"}},
+    "PO-5003.txt": {"doc_type": "purchase_order", "status": "reference", "exceptions": [], "fields": {"po_number": "PO-5003", "vendor_id": "V-003"}},
+    "PO-5004.json": {"doc_type": "purchase_order", "status": "reference", "exceptions": [], "fields": {"po_number": "PO-5004"}},
+    "GRN-7001.txt": {"doc_type": "goods_receipt", "status": "reference", "exceptions": [], "fields": {"po_number": "PO-5001"}},
+    "GRN-7002.json": {"doc_type": "goods_receipt", "status": "reference", "exceptions": [], "fields": {"po_number": "PO-5002"}},
+    "GRN-7003.txt": {"doc_type": "goods_receipt", "status": "reference", "exceptions": [], "fields": {"po_number": "PO-5003"}},
+    "GRN-7004.txt": {"doc_type": "goods_receipt", "status": "reference", "exceptions": [], "fields": {"po_number": "PO-5004"}}
+  }
+}

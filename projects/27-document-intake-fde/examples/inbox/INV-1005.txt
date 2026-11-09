@@ -1,0 +1,14 @@
+Shady Parts LLC
+Cash preferred
+
+INVOICE
+Invoice No: SP-0001
+Invoice Date: 2026-10-11
+Bill To: Northwind Manufacturing
+
+SKU        Description               Qty   Unit Price     Amount
+MISC-01    Assorted parts              1       480.00     480.00
+
+Subtotal: 480.00
+Tax (0%): 0.00
+Total Due: USD 480.00

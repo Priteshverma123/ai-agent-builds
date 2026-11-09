@@ -1,0 +1,5 @@
+pydantic==2.10.6
+pytest==8.3.4
+# Optional, only for a real LLM extractor (not needed for the demo or tests):
+# anthropic   (LLM_PROVIDER=anthropic)
+# openai      (LLM_PROVIDER=openai)

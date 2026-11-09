@@ -1,0 +1,8 @@
+[
+  {"vendor_id": "V-001", "name": "Acme Industrial Supply Co.", "aliases": ["Acme Industrial", "ACME Supply"],
+   "tax_id": "31-4455667", "currency": "USD", "tax_rate": 0.07, "gl_code": "5100-MRO"},
+  {"vendor_id": "V-002", "name": "Globex Office Products", "aliases": ["Globex"],
+   "tax_id": "52-9087766", "currency": "USD", "tax_rate": 0.08, "gl_code": "6200-OFFICE"},
+  {"vendor_id": "V-003", "name": "Initech Components Inc.", "aliases": ["Initech"],
+   "tax_id": "77-1200345", "currency": "USD", "tax_rate": 0.06, "gl_code": "5000-COMPONENTS"}
+]

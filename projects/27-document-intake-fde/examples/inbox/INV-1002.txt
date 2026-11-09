@@ -1,0 +1,16 @@
+Globex Office Products
+Remit to: PO Box 991, Springfield IL
+
+INVOICE #GX-30417
+Date: 10/05/2026
+Payment due: 11/04/2026
+Your PO: PO-5002
+Bill To: Northwind Manufacturing
+
+SKU        Description               Qty   Unit Price     Amount
+PAPER-A4   Copy paper A4 (ream)       20         4.10      82.00
+TONER-K    Toner cartridge black       2        64.00     128.00
+
+Subtotal: 210.00
+Sales tax 8%: 16.80
+Amount Due: USD 226.80

@@ -1,0 +1,17 @@
+{
+  "document_type": "invoice",
+  "invoice_number": "A-88190",
+  "vendor_name": "Acme Industrial Supply Co.",
+  "vendor_tax_id": "31-4455667",
+  "invoice_date": "2026-10-10",
+  "due_date": "2026-11-09",
+  "po_number": "PO-5004",
+  "currency": "USD",
+  "lines": [
+    {"sku": "GLOVE-L", "description": "Nitrile gloves L (box)", "quantity": 40, "unit_price": 3.25, "amount": 130.00},
+    {"sku": "MASK-N95", "description": "N95 mask", "quantity": 100, "unit_price": 1.10, "amount": 110.00}
+  ],
+  "subtotal": 240.00,
+  "tax": 16.80,
+  "total": 256.80
+}

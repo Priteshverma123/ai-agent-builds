@@ -1,0 +1,18 @@
+ACME INDUSTRIAL SUPPLY CO.
+123 Foundry Rd, Dayton OH 45402
+Tax ID: 31-4455667
+
+INVOICE
+Invoice No: A-88121
+Invoice Date: 2026-10-02
+Due Date: 2026-11-01
+PO Number: PO-5001
+Bill To: Northwind Manufacturing
+
+SKU        Description               Qty   Unit Price     Amount
+BOLT-M8    Hex bolt M8 x 40 (box)     10        12.50     125.00
+NUT-M8     Hex nut M8 (box)           10         6.20      62.00
+
+Subtotal: 187.00
+Tax (7%): 13.09
+Total Due: USD 200.09

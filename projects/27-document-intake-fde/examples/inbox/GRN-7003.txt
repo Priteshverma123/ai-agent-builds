@@ -1,0 +1,10 @@
+NORTHWIND MANUFACTURING - RECEIVING
+GOODS RECEIVED NOTE
+GRN No: GRN-7003
+PO Number: PO-5003
+Received Date: 2026-10-06
+Received By: L. Ortiz
+
+SKU        Qty Received   Condition
+SENS-T1    60             OK
+CABLE-2M   100            OK

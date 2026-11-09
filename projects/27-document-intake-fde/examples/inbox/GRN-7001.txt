@@ -1,0 +1,10 @@
+NORTHWIND MANUFACTURING - RECEIVING
+GOODS RECEIVED NOTE
+GRN No: GRN-7001
+PO Number: PO-5001
+Received Date: 2026-09-30
+Received By: D. Kim
+
+SKU        Qty Received   Condition
+BOLT-M8    10             OK
+NUT-M8     10             OK

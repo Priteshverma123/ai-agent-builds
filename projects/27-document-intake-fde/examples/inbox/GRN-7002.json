@@ -1,0 +1,2 @@
+{"document_type": "goods_receipt", "grn_number": "GRN-7002", "po_number": "PO-5002", "received_date": "2026-10-01",
+ "lines": [{"sku": "PAPER-A4", "quantity_received": 20}, {"sku": "TONER-K", "quantity_received": 3}]}

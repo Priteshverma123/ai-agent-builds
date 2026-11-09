@@ -1,0 +1,13 @@
+NORTHWIND MANUFACTURING
+PURCHASE ORDER
+PO Number: PO-5003
+Order Date: 2026-09-01
+Vendor: Initech Components Inc.
+Currency: USD
+Ship To: Plant 2, Receiving Dock B
+
+SKU        Description               Qty   Unit Price     Amount
+SENS-T1    Temperature sensor        100         8.75     875.00
+CABLE-2M   Sensor cable 2m           100         2.40     240.00
+
+Order Total: 1,115.00

@@ -1,0 +1,17 @@
+Initech Components Inc.
+Tax ID: 77-1200345
+
+INVOICE
+Invoice No: IN-2207
+Invoice Date: 2026-09-15
+Due Date: 2026-10-15
+PO Number: PO-5003
+Bill To: Northwind Manufacturing
+** SECOND NOTICE - PLEASE PAY **
+
+SKU        Description               Qty   Unit Price     Amount
+CABLE-2M   Sensor cable 2m            10         2.40      24.00
+
+Subtotal: 24.00
+Tax (6%): 1.44
+Total Due: USD 25.44

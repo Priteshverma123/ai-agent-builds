@@ -1,0 +1,4 @@
+{"document_type": "purchase_order", "po_number": "PO-5002", "vendor_name": "Globex Office Products",
+ "order_date": "2026-09-22", "currency": "USD",
+ "lines": [{"sku": "PAPER-A4", "description": "Copy paper A4 (ream)", "quantity": 20, "unit_price": 3.80, "amount": 76.00},
+           {"sku": "TONER-K", "description": "Toner cartridge black", "quantity": 3, "unit_price": 64.00, "amount": 192.00}]}

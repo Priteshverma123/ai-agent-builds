@@ -1,0 +1,34 @@
+[project]
+name = "document-intake"
+version = "1.0.0"
+description = "Document intake pipeline: classify, extract (LLM -> pydantic), validate, 3-way match, ERP export, exceptions queue, golden eval"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["pydantic==2.10.6"]
+
+[project.optional-dependencies]
+anthropic = ["anthropic"]
+openai = ["openai"]
+dev = ["pytest==8.3.4"]
+
+[project.scripts]
+intake = "intake.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]

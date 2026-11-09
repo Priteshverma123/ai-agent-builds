@@ -1,0 +1,10 @@
+ACME INDUSTR1AL SUPPLY C0.
+Tax ID: 31-4455667
+INVOICE
+lnvoice No: A-88301
+Invoice Date: 2026-10-14
+PO Number: PO-5004
+SKU        Description               Qty   Unit Price     Amount
+GLOVE-L    Nitrile gloves L (box)     ##        3.25      ##.##
+Subtotal: ###.##
+Tota1 Due: ____

@@ -1,0 +1,48 @@
+{
+  "client_name": "Northwind Manufacturing",
+  "as_of": "2026-10-20",
+  "require_po": true,
+  "min_classification_confidence": 0.7,
+  "date_formats": ["%Y-%m-%d", "%m/%d/%Y"],
+  "tolerances": {"price_pct": 0.02, "amount_abs": 0.02, "tax_abs": 0.05},
+  "exception_routing": {
+    "UNCLASSIFIED": "mailroom",
+    "EXTRACTION_FAILED": "data_entry",
+    "LOW_CONFIDENCE": "data_entry",
+    "UNKNOWN_VENDOR": "vendor_master",
+    "DUPLICATE_INVOICE": "ap_clerk",
+    "PRICE_VARIANCE": "buyer",
+    "LINE_NOT_ON_PO": "buyer",
+    "QTY_EXCEEDS_PO": "buyer",
+    "QTY_EXCEEDS_RECEIVED": "receiving",
+    "NO_RECEIPT": "receiving"
+  },
+  "default_owner": "ap_clerk",
+  "erp_mapping": {
+    "header": {
+      "VendorAccount": "vendor_id",
+      "DocumentNo": "invoice_number",
+      "DocumentDate": "invoice_date",
+      "DueDate": "due_date",
+      "PurchaseOrder": "po_number",
+      "Currency": "currency",
+      "NetAmount": "subtotal",
+      "TaxAmount": "tax",
+      "GrossAmount": "total",
+      "GLAccount": "vendor.gl_code"
+    },
+    "line": {
+      "ItemNumber": "sku",
+      "Quantity": "quantity",
+      "UnitPrice": "unit_price",
+      "LineAmount": "amount"
+    },
+    "date_format": "%d.%m.%Y"
+  },
+  "acceptance": {
+    "classification_accuracy": 1.0,
+    "field_accuracy": 0.98,
+    "decision_accuracy": 1.0,
+    "exception_recall": 0.95
+  }
+}
