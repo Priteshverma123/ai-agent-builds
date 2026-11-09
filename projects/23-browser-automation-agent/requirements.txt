@@ -1,0 +1,7 @@
+# The browser, accessibility snapshot and agent use only the Python 3.11+ standard library.
+# No real browser is needed: pages come from a local, simulated site (examples/site) or a folder of .html files.
+pytest==8.3.4
+
+# Optional: only needed for a real LLM (LLM_PROVIDER=anthropic or openai).
+# anthropic
+# openai

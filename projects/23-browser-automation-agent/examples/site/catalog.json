@@ -1,0 +1,6 @@
+[
+  {"sku": "MUG-BLUE", "name": "Blue Ceramic Mug", "price": 12.0, "description": "Holds 350 ml. Dishwasher safe."},
+  {"sku": "MUG-RED", "name": "Red Ceramic Mug", "price": 12.0, "description": "Holds 350 ml. Out of stock.", "out_of_stock": true},
+  {"sku": "MUG-TRAVEL", "name": "Steel Travel Mug", "price": 24.5, "description": "Keeps coffee hot for 6 hours."},
+  {"sku": "TEA-POT", "name": "Glass Teapot", "price": 31.0, "description": "1 litre, with a steel infuser."}
+]
