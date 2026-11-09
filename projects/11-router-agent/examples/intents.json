@@ -1,0 +1,32 @@
+{
+  "billing": {
+    "description": "invoices, charges, refunds, payment methods, receipts",
+    "examples": [
+      "I was charged twice this month",
+      "Can I get a refund for my last payment?",
+      "How do I update my credit card?",
+      "Where can I download my receipt?",
+      "Why is my bill higher than usual?"
+    ]
+  },
+  "tech_support": {
+    "description": "bugs, errors, login problems, how to use product features",
+    "examples": [
+      "The app crashes when I open it",
+      "I forgot my password and cannot sign in",
+      "How do I export my projects to a file?",
+      "Sync is not working on my phone",
+      "I get an error when I upload a file"
+    ]
+  },
+  "sales": {
+    "description": "pricing, plans, discounts, demos, enterprise contracts",
+    "examples": [
+      "How much does the team plan cost?",
+      "Do you offer a discount for nonprofits?",
+      "Can I book a demo for my company?",
+      "We need an enterprise contract for 200 seats",
+      "What is included in the pro plan?"
+    ]
+  }
+}

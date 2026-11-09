@@ -1,0 +1,17 @@
+{"message": "I was charged twice on invoice INV-1042", "intent": "billing"}
+{"message": "Please refund my annual subscription", "intent": "billing"}
+{"message": "My card payment keeps getting declined", "intent": "billing"}
+{"message": "Can you send me last month's receipt?", "intent": "billing"}
+{"message": "My app keeps crashing when I upload a photo", "intent": "tech_support"}
+{"message": "How do I export my data to CSV?", "intent": "tech_support"}
+{"message": "I reset my password but still can't log in", "intent": "tech_support"}
+{"message": "The sync between my laptop and phone is broken", "intent": "tech_support"}
+{"message": "Do you offer discounts for teams of 50 people?", "intent": "sales"}
+{"message": "What does the enterprise plan include?", "intent": "sales"}
+{"message": "I'd like to book a demo next week", "intent": "sales"}
+{"message": "How much is the pro plan per seat?", "intent": "sales"}
+{"message": "What's the weather in Paris?", "intent": "fallback"}
+{"message": "Tell me a joke", "intent": "fallback"}
+{"message": "I can't log in and I also want a refund", "intent": "fallback"}
+{"message": "hello?", "intent": "fallback"}
+{"message": "Why did my price go up after the update?", "intent": "billing"}
