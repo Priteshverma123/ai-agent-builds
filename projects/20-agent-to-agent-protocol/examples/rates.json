@@ -1,0 +1,10 @@
+{
+  "_note": "Fixed demo rates: units of each currency per 1 USD. Not live data.",
+  "USD": 1.0,
+  "CAD": 1.37,
+  "AUD": 1.52,
+  "EUR": 0.92,
+  "GBP": 0.79,
+  "JPY": 149.5,
+  "INR": 83.2
+}
