@@ -1,0 +1,24 @@
+services:
+  assistant:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      LLM_PROVIDER: ${LLM_PROVIDER:-mock}
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+    volumes:
+      - ./examples/docs:/app/examples/docs:ro   # edit the handbook without rebuilding
+      - traces:/app/out
+    restart: unless-stopped
+
+  # One-shot eval gate: docker compose --profile ci run --rm evals
+  evals:
+    build: .
+    profiles: ["ci"]
+    command: ["python", "run_evals.py"]
+    environment:
+      LLM_PROVIDER: ${LLM_PROVIDER:-mock}
+
+volumes:
+  traces:
