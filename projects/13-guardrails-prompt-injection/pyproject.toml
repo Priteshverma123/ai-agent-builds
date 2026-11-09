@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "guardrails-prompt-injection"
+version = "0.1.0"
+description = "A tool-using agent with four guardrail layers against prompt injection (exe_404.ai project 13)."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []  # runtime is the standard library only
+
+[project.optional-dependencies]
+anthropic = ["anthropic"]
+openai = ["openai"]
+dev = ["pytest==8.3.4"]
+
+[project.scripts]
+guardrails-demo = "guardrails.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
