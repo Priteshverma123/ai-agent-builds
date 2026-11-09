@@ -1,0 +1,13 @@
+# Used by BuildKit when building with -f 09-mcp-client-agent/Dockerfile from projects/:
+# send only the two projects this image needs.
+*
+!08-mcp-server-from-scratch/server.py
+!08-mcp-server-from-scratch/src
+!08-mcp-server-from-scratch/examples
+!09-mcp-client-agent/requirements.txt
+!09-mcp-client-agent/pyproject.toml
+!09-mcp-client-agent/demo.py
+!09-mcp-client-agent/src
+!09-mcp-client-agent/examples
+**/__pycache__
+**/*.pyc

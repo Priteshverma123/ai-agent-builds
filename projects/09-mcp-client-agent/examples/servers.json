@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "notebook": {
+      "command": "python",
+      "args": ["../../08-mcp-server-from-scratch/server.py"]
+    }
+  }
+}
